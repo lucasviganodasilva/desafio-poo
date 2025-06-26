@@ -40,19 +40,19 @@ public class Bootcamp {
         return finalDate;
     }
 
-    public Set<Dev> getDevsOnBootcamp() {
+    public Set<Dev> getBootcampDevs() {
         return bootcampDevs;
     }
 
-    public void setDevsOnBootcamp(Set<Dev> devsOnBootcamp) {
+    public void setBootcampDevs(Set<Dev> devsOnBootcamp) {
         this.bootcampDevs = devsOnBootcamp;
     }
 
-    public Set<Content> getContentOnBootcamp() {
+    public Set<Content> getBootcampContents() {
         return bootcampContents;
     }
 
-    public void setContentOnBootcamp(Set<Content> contentOnBootcamp) {
+    public void setBootcampContents(Set<Content> contentOnBootcamp) {
         this.bootcampContents = contentOnBootcamp;
     }
 
