@@ -20,4 +20,12 @@ public class Mentoring extends Content {
         this.date = date;
     }
 
+    @Override
+    public String toString() {
+        return "Mentoria{" +
+                "titulo='" + getTitle() + '\'' +
+                ", descricao='" + getDescription() + '\'' +
+                ", data=" + date +
+                '}';
+    }
 }

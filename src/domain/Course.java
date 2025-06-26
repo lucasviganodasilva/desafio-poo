@@ -18,5 +18,12 @@ public class Course extends Content{
         this.courseLoad = courseLoad;
     }
 
-
+    @Override
+    public String toString() {
+        return "Curso{" +
+                "titulo='" + getTitle() + '\'' +
+                ", descricao='" + getDescription() + '\'' +
+                ", cargaHoraria=" + courseLoad +
+                '}';
+    }
 }

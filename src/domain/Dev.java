@@ -17,7 +17,7 @@ public class Dev {
     }
 
     public void advanced() {
-        Optional<Content> content = this.contentConcluded.stream().findFirst();
+        Optional<Content> content = this.contentLists.stream().findFirst();
         if (content.isPresent()) {
             this.contentConcluded.add(content.get());
             this.contentLists.remove(content.get());
